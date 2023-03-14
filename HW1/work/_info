@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1/modelsim_ase/win32aloem
+vMMS_4num
+Z0 !s110 1678778628
+!i10b 1
+!s100 LHzjXP`Z^gmeFjejS>[Yf2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IBFS>9Y6MoS]^Li`T`>de_0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/WangYuCheng/Desktop/DIC/HW1
+Z4 w1678778571
+8MMS_4num.v
+FMMS_4num.v
+!i122 25
+L0 1 15
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1678778628.000000
+Z7 !s107 MMS_4num.v|C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_8num.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_8num.v|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+n@m@m@s_4num
+vMMS_8num
+R0
+!i10b 1
+!s100 hPG<jL:dgaYf@bLRDJPhI0
+R1
+I<YQ_ZUFU7JOAddQTfQ4eX0
+R2
+R3
+R4
+8C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_8num.v
+FC:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_8num.v
+!i122 25
+L0 2 37
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@m@m@s_8num
+vMMS_tb
+R0
+!i10b 1
+!s100 NZKCGgdeO;a=dW8J=eJFN3
+R1
+I?;a^@_H0ZTY>O[l3eF:V@0
+R2
+R3
+R4
+8C:\Users\WangYuCheng\Desktop\DIC\HW1\MMS_tb.v
+FC:\Users\WangYuCheng\Desktop\DIC\HW1\MMS_tb.v
+!i122 26
+L0 8 180
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:\Users\WangYuCheng\Desktop\DIC\HW1\MMS_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\WangYuCheng\Desktop\DIC\HW1\MMS_tb.v|
+!i113 1
+R9
+R10
+n@m@m@s_tb

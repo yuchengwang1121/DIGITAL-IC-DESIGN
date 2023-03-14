@@ -1,0 +1,442 @@
+vsim -gui work.MMS_tb +notimingchecks
+# vsim -gui work.MMS_tb "+notimingchecks" 
+# Start time: 21:46:28 on Mar 13,2023
+# Loading work.MMS_tb
+# Loading work.MMS_4num
+# Loading work.MMS_8num
+run -all
+# -------------Stage 1 : Maximum selection with 4-input MMS-------------
+# 
+# -------------------There are 500 errors in stage 1!-------------------
+# 
+# -------------Stage 2 : Minimum selection with 4-input MMS-------------
+# 
+# -------------------There are 500 errors in stage 2!-------------------
+# 
+# -------------Stage 3 : Maximum selection with 8-input MMS-------------
+# 
+# -------------------There are 4000 errors in stage 3!-------------------
+# 
+# -------------Stage 4 : Minimum selection with 8-input MMS-------------
+# 
+# -------------------There are 4000 errors in stage 4!-------------------
+# 
+# -----------------------------------------------------------------------
+# 
+# ---------------            Simulation finish            ---------------
+# 
+# ---------------    There are  500 errors in stage 1!    ---------------
+# 
+# ---------------    There are  500 errors in stage 2!    ---------------
+# 
+# ---------------    There are 4000 errors in stage 3!    ---------------
+# 
+# ---------------    There are 4000 errors in stage 4!    ---------------
+# 
+# -------------------------------------------------------------------
+# ** Note: $finish    : C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v(183)
+#    Time: 1800100 ns  Iteration: 0  Instance: /MMS_tb
+# 1
+# Break in Module MMS_tb at C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v line 183
+add wave -position insertpoint sim:/MMS_tb/MMS_4num/*
+restart
+# Compile of MMS_4num.v was successful.
+# Compile of MMS_8num.v was successful.
+# Compile of MMS_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of MMS_4num.v was successful.
+# Compile of MMS_8num.v was successful.
+# Compile of MMS_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui +notimingchecks work.MMS_tb
+# End time: 21:52:01 on Mar 13,2023, Elapsed time: 0:05:33
+# Errors: 0, Warnings: 3
+# vsim -gui "+notimingchecks" work.MMS_tb 
+# Start time: 21:52:02 on Mar 13,2023
+# Loading work.MMS_tb
+# Loading work.MMS_4num
+# Loading work.MMS_8num
+run -all
+# -------------Stage 1 : Maximum selection with 4-input MMS-------------
+# 
+# -------------------There are 372 errors in stage 1!-------------------
+# 
+# -------------Stage 2 : Minimum selection with 4-input MMS-------------
+# 
+# -------------------There are 500 errors in stage 2!-------------------
+# 
+# -------------Stage 3 : Maximum selection with 8-input MMS-------------
+# 
+# -------------------There are 3499 errors in stage 3!-------------------
+# 
+# -------------Stage 4 : Minimum selection with 8-input MMS-------------
+# 
+# -------------------There are 4000 errors in stage 4!-------------------
+# 
+# -----------------------------------------------------------------------
+# 
+# ---------------            Simulation finish            ---------------
+# 
+# ---------------    There are  372 errors in stage 1!    ---------------
+# 
+# ---------------    There are  500 errors in stage 2!    ---------------
+# 
+# ---------------    There are 3499 errors in stage 3!    ---------------
+# 
+# ---------------    There are 4000 errors in stage 4!    ---------------
+# 
+# -------------------------------------------------------------------
+# ** Note: $finish    : C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v(183)
+#    Time: 1800100 ns  Iteration: 0  Instance: /MMS_tb
+# 1
+# Break in Module MMS_tb at C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v line 183
+add wave -position insertpoint sim:/MMS_tb/MMS_4num/*
+restart
+restart
+vsim -gui +notimingchecks work.MMS_tb
+# End time: 21:56:40 on Mar 13,2023, Elapsed time: 0:04:38
+# Errors: 0, Warnings: 1
+# vsim -gui "+notimingchecks" work.MMS_tb 
+# Start time: 21:56:40 on Mar 13,2023
+# Loading work.MMS_tb
+# Loading work.MMS_4num
+# Loading work.MMS_8num
+run -all
+# -------------Stage 1 : Maximum selection with 4-input MMS-------------
+# 
+# -------------------There are 372 errors in stage 1!-------------------
+# 
+# -------------Stage 2 : Minimum selection with 4-input MMS-------------
+# 
+# -------------------There are 500 errors in stage 2!-------------------
+# 
+# -------------Stage 3 : Maximum selection with 8-input MMS-------------
+# 
+# -------------------There are 3499 errors in stage 3!-------------------
+# 
+# -------------Stage 4 : Minimum selection with 8-input MMS-------------
+# 
+# -------------------There are 4000 errors in stage 4!-------------------
+# 
+# -----------------------------------------------------------------------
+# 
+# ---------------            Simulation finish            ---------------
+# 
+# ---------------    There are  372 errors in stage 1!    ---------------
+# 
+# ---------------    There are  500 errors in stage 2!    ---------------
+# 
+# ---------------    There are 3499 errors in stage 3!    ---------------
+# 
+# ---------------    There are 4000 errors in stage 4!    ---------------
+# 
+# -------------------------------------------------------------------
+# ** Note: $finish    : C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v(183)
+#    Time: 1800100 ns  Iteration: 0  Instance: /MMS_tb
+# 1
+# Break in Module MMS_tb at C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v line 183
+add wave -position insertpoint sim:/MMS_tb/MMS_4num/*
+restart
+# Compile of MMS_4num.v was successful.
+# Compile of MMS_8num.v was successful.
+# Compile of MMS_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui +notimingchecks work.MMS_tb
+# End time: 22:02:13 on Mar 13,2023, Elapsed time: 0:05:33
+# Errors: 0, Warnings: 2
+# vsim -gui "+notimingchecks" work.MMS_tb 
+# Start time: 22:02:13 on Mar 13,2023
+# Loading work.MMS_tb
+# Loading work.MMS_4num
+# Loading work.MMS_8num
+run -all
+# -------------Stage 1 : Maximum selection with 4-input MMS-------------
+# 
+# -------------------There are 372 errors in stage 1!-------------------
+# 
+# -------------Stage 2 : Minimum selection with 4-input MMS-------------
+# 
+# -------------------There are 500 errors in stage 2!-------------------
+# 
+# -------------Stage 3 : Maximum selection with 8-input MMS-------------
+# 
+# -------------------There are 3499 errors in stage 3!-------------------
+# 
+# -------------Stage 4 : Minimum selection with 8-input MMS-------------
+# 
+# -------------------There are 4000 errors in stage 4!-------------------
+# 
+# -----------------------------------------------------------------------
+# 
+# ---------------            Simulation finish            ---------------
+# 
+# ---------------    There are  372 errors in stage 1!    ---------------
+# 
+# ---------------    There are  500 errors in stage 2!    ---------------
+# 
+# ---------------    There are 3499 errors in stage 3!    ---------------
+# 
+# ---------------    There are 4000 errors in stage 4!    ---------------
+# 
+# -------------------------------------------------------------------
+# ** Note: $finish    : C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v(183)
+#    Time: 1800100 ns  Iteration: 0  Instance: /MMS_tb
+# 1
+# Break in Module MMS_tb at C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v line 183
+add wave -position insertpoint sim:/MMS_tb/MMS_4num/*
+restart
+# Compile of MMS_4num.v was successful.
+# Compile of MMS_8num.v was successful.
+# Compile of MMS_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui +notimingchecks work.MMS_tb
+# End time: 22:05:35 on Mar 13,2023, Elapsed time: 0:03:22
+# Errors: 0, Warnings: 2
+# vsim -gui "+notimingchecks" work.MMS_tb 
+# Start time: 22:05:35 on Mar 13,2023
+# Loading work.MMS_tb
+# Loading work.MMS_4num
+# Loading work.MMS_8num
+run -all
+# -------------Stage 1 : Maximum selection with 4-input MMS-------------
+# 
+# -------------------There are 372 errors in stage 1!-------------------
+# 
+# -------------Stage 2 : Minimum selection with 4-input MMS-------------
+# 
+# -------------Stage 2 :              Pass!                 -------------
+# 
+# -------------Stage 3 : Maximum selection with 8-input MMS-------------
+# 
+# -------------------There are 3499 errors in stage 3!-------------------
+# 
+# -------------Stage 4 : Minimum selection with 8-input MMS-------------
+# 
+# -------------Stage 4 :              Pass!                 -------------
+# 
+# -----------------------------------------------------------------------
+# 
+# ---------------            Simulation finish            ---------------
+# 
+# ---------------    There are  372 errors in stage 1!    ---------------
+# 
+# ---------------    There are    0 errors in stage 2!    ---------------
+# 
+# ---------------    There are 3499 errors in stage 3!    ---------------
+# 
+# ---------------    There are    0 errors in stage 4!    ---------------
+# 
+# -------------------------------------------------------------------
+# ** Note: $finish    : C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v(183)
+#    Time: 1800100 ns  Iteration: 0  Instance: /MMS_tb
+# 1
+# Break in Module MMS_tb at C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v line 183
+# Compile of MMS_4num.v failed with 1 errors.
+# Compile of MMS_8num.v failed with 9 errors.
+# Compile of MMS_tb.v was successful.
+# 3 compiles, 2 failed with 10 errors.
+vsim -gui +notimingchecks work.MMS_tb
+# End time: 22:15:45 on Mar 13,2023, Elapsed time: 0:10:10
+# Errors: 0, Warnings: 2
+# vsim -gui "+notimingchecks" work.MMS_tb 
+# Start time: 22:15:45 on Mar 13,2023
+# Loading work.MMS_tb
+# Loading work.MMS_4num
+# Loading work.MMS_8num
+run -all
+# -------------Stage 1 : Maximum selection with 4-input MMS-------------
+# 
+# -------------------There are 372 errors in stage 1!-------------------
+# 
+# -------------Stage 2 : Minimum selection with 4-input MMS-------------
+# 
+# -------------Stage 2 :              Pass!                 -------------
+# 
+# -------------Stage 3 : Maximum selection with 8-input MMS-------------
+# 
+# -------------------There are 3499 errors in stage 3!-------------------
+# 
+# -------------Stage 4 : Minimum selection with 8-input MMS-------------
+# 
+# -------------Stage 4 :              Pass!                 -------------
+# 
+# -----------------------------------------------------------------------
+# 
+# ---------------            Simulation finish            ---------------
+# 
+# ---------------    There are  372 errors in stage 1!    ---------------
+# 
+# ---------------    There are    0 errors in stage 2!    ---------------
+# 
+# ---------------    There are 3499 errors in stage 3!    ---------------
+# 
+# ---------------    There are    0 errors in stage 4!    ---------------
+# 
+# -------------------------------------------------------------------
+# ** Note: $finish    : C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v(183)
+#    Time: 1800100 ns  Iteration: 0  Instance: /MMS_tb
+# 1
+# Break in Module MMS_tb at C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v line 183
+# Compile of MMS_4num.v was successful.
+# Compile of MMS_8num.v was successful.
+# Compile of MMS_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui +notimingchecks work.MMS_tb
+# End time: 22:17:23 on Mar 13,2023, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 2
+# vsim -gui "+notimingchecks" work.MMS_tb 
+# Start time: 22:17:23 on Mar 13,2023
+# Loading work.MMS_tb
+# Loading work.MMS_4num
+# Loading work.MMS_8num
+run -all
+# -------------Stage 1 : Maximum selection with 4-input MMS-------------
+# 
+# -------------Stage 1 :              Pass!                 -------------
+# 
+# -------------Stage 2 : Minimum selection with 4-input MMS-------------
+# 
+# -------------------There are 134 errors in stage 2!-------------------
+# 
+# -------------Stage 3 : Maximum selection with 8-input MMS-------------
+# 
+# -------------Stage 3 :              Pass!                 -------------
+# 
+# -------------Stage 4 : Minimum selection with 8-input MMS-------------
+# 
+# -------------------There are  962 errors in stage 4!-------------------
+# 
+# -----------------------------------------------------------------------
+# 
+# ---------------            Simulation finish            ---------------
+# 
+# ---------------    There are    0 errors in stage 1!    ---------------
+# 
+# ---------------    There are  134 errors in stage 2!    ---------------
+# 
+# ---------------    There are    0 errors in stage 3!    ---------------
+# 
+# ---------------    There are  962 errors in stage 4!    ---------------
+# 
+# -------------------------------------------------------------------
+# ** Note: $finish    : C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v(183)
+#    Time: 1800100 ns  Iteration: 0  Instance: /MMS_tb
+# 1
+# Break in Module MMS_tb at C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v line 183
+add wave -position insertpoint sim:/MMS_tb/MMS_4num/*
+restart
+add wave -position insertpoint sim:/MMS_tb/MMS_4num/*
+add wave -position insertpoint sim:/MMS_tb/MMS_8num/*
+# Compile of MMS_4num.v was successful.
+# Compile of MMS_8num.v was successful.
+# Compile of MMS_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui +notimingchecks work.MMS_tb
+# End time: 22:21:33 on Mar 13,2023, Elapsed time: 0:04:10
+# Errors: 0, Warnings: 2
+# vsim -gui "+notimingchecks" work.MMS_tb 
+# Start time: 22:21:33 on Mar 13,2023
+# Loading work.MMS_tb
+# Loading work.MMS_4num
+# Loading work.MMS_8num
+run -all
+# -------------Stage 1 : Maximum selection with 4-input MMS-------------
+# 
+# -------------Stage 1 :              Pass!                 -------------
+# 
+# -------------Stage 2 : Minimum selection with 4-input MMS-------------
+# 
+# -------------Stage 2 :              Pass!                 -------------
+# 
+# -------------Stage 3 : Maximum selection with 8-input MMS-------------
+# 
+# -------------Stage 3 :              Pass!                 -------------
+# 
+# -------------Stage 4 : Minimum selection with 8-input MMS-------------
+# 
+# -------------Stage 4 :              Pass!                 -------------
+# 
+# -----------------------------------------------------------------------
+# 
+# ---------------      Simulation finish,  ALL PASS       ---------------
+# 
+# -------------------------------------------------------------------
+# ** Note: $finish    : C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v(183)
+#    Time: 1800100 ns  Iteration: 0  Instance: /MMS_tb
+# 1
+# Break in Module MMS_tb at C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v line 183
+add wave -position insertpoint sim:/MMS_tb/MMS_4num/*
+restart
+run -all
+# -------------Stage 1 : Maximum selection with 4-input MMS-------------
+# 
+# -------------Stage 1 :              Pass!                 -------------
+# 
+# -------------Stage 2 : Minimum selection with 4-input MMS-------------
+# 
+# -------------Stage 2 :              Pass!                 -------------
+# 
+# -------------Stage 3 : Maximum selection with 8-input MMS-------------
+# 
+# -------------Stage 3 :              Pass!                 -------------
+# 
+# -------------Stage 4 : Minimum selection with 8-input MMS-------------
+# 
+# -------------Stage 4 :              Pass!                 -------------
+# 
+# -----------------------------------------------------------------------
+# 
+# ---------------      Simulation finish,  ALL PASS       ---------------
+# 
+# -------------------------------------------------------------------
+# ** Note: $finish    : C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v(183)
+#    Time: 1800100 ns  Iteration: 0  Instance: /MMS_tb
+# 1
+# Break in Module MMS_tb at C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v line 183
+add wave -position insertpoint sim:/MMS_tb/*
+add dataflow sim:/MMS_tb/MMS_4num/*
+# WARNING: No extended dataflow license exists
+add dataflow sim:/MMS_tb/MMS_4num/*
+add dataflow sim:/MMS_tb/MMS_4num/#ASSIGN#12/*
+add dataflow sim:/MMS_tb/MMS_4num/*
+add dataflow sim:/MMS_tb/MMS_4num/*
+# Compile of MMS_4num.v was successful.
+# Compile of MMS_8num.v was successful.
+# Compile of MMS_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui +notimingchecks work.MMS_tb
+# End time: 15:24:03 on Mar 14,2023, Elapsed time: 17:02:30
+# Errors: 0, Warnings: 2
+# vsim -gui "+notimingchecks" work.MMS_tb 
+# Start time: 15:24:03 on Mar 14,2023
+# Loading work.MMS_tb
+# Loading work.MMS_4num
+# Loading work.MMS_8num
+run -all
+# -------------Stage 1 : Maximum selection with 4-input MMS-------------
+# 
+# -------------Stage 1 :              Pass!                 -------------
+# 
+# -------------Stage 2 : Minimum selection with 4-input MMS-------------
+# 
+# -------------Stage 2 :              Pass!                 -------------
+# 
+# -------------Stage 3 : Maximum selection with 8-input MMS-------------
+# 
+# -------------Stage 3 :              Pass!                 -------------
+# 
+# -------------Stage 4 : Minimum selection with 8-input MMS-------------
+# 
+# -------------Stage 4 :              Pass!                 -------------
+# 
+# -----------------------------------------------------------------------
+# 
+# ---------------      Simulation finish,  ALL PASS       ---------------
+# 
+# -------------------------------------------------------------------
+# ** Note: $finish    : C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v(183)
+#    Time: 1800100 ns  Iteration: 0  Instance: /MMS_tb
+# 1
+# Break in Module MMS_tb at C:/Users/WangYuCheng/Desktop/DIC/HW1/MMS_tb.v line 183
+# End time: 15:31:46 on Mar 14,2023, Elapsed time: 0:07:43
+# Errors: 0, Warnings: 1

@@ -81,7 +81,7 @@ initial begin
             //
         end
         else begin
-            //$display("Pattern %3d: Expect= %d Get= %d\n", i, result_g_4, result_4);
+            // $display("Pattern %3d: Expect= %d Get= %d\n", i, result_g_4, result_4);
             err = err + 1;
         end
     end
