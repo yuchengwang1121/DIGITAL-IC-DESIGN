@@ -1,0 +1,8 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-INCDIR
+/home/YuChengWang/DIC/HW2/src
+-DEFINE
+FSDB_FILE=\"RAIL.fsdb\"

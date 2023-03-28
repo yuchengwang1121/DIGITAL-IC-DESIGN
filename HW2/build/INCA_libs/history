@@ -1,0 +1,18 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(28Mar2023:18:06:38):( ncverilog /home/YuChengWang/DIC/HW2/sim/tb.v /home/YuChengWang/DIC/HW2/src/rails.v +incdir+/home/YuChengWang/DIC/HW2/src +nc64bit +access+r +define+FSDB_FILE="RAIL.fsdb" )
+s2::(28Mar2023:18:21:49):( ncverilog /home/YuChengWang/DIC/HW2/sim/tb.v /home/YuChengWang/DIC/HW2/src/rails.v +incdir+/home/YuChengWang/DIC/HW2/src +nc64bit +access+r +define+FSDB_FILE="RAIL.fsdb" )
+s3::(28Mar2023:18:29:33):( ncverilog /home/YuChengWang/DIC/HW2/sim/tb.v /home/YuChengWang/DIC/HW2/src/rails.v +incdir+/home/YuChengWang/DIC/HW2/src +nc64bit +access+r +define+FSDB_FILE="RAIL.fsdb" )
+s4::(28Mar2023:19:57:56):( ncverilog /home/YuChengWang/DIC/HW2/sim/tb.v /home/YuChengWang/DIC/HW2/src/rails.v +incdir+/home/YuChengWang/DIC/HW2/src +nc64bit +access+r +define+FSDB_FILE="RAIL.fsdb" )
+s5::(28Mar2023:20:14:16):( ncverilog /home/YuChengWang/DIC/HW2/sim/tb.v /home/YuChengWang/DIC/HW2/src/rails.v +incdir+/home/YuChengWang/DIC/HW2/src +nc64bit +access+r +define+FSDB_FILE="RAIL.fsdb" )
+s6::(28Mar2023:21:00:07):( ncverilog /home/YuChengWang/DIC/HW2/sim/tb.v /home/YuChengWang/DIC/HW2/src/rails.v +incdir+/home/YuChengWang/DIC/HW2/src +nc64bit +access+r +define+FSDB_FILE="RAIL.fsdb" )
+s7::(28Mar2023:21:12:36):( ncverilog /home/YuChengWang/DIC/HW2/sim/tb.v /home/YuChengWang/DIC/HW2/src/rails.v +incdir+/home/YuChengWang/DIC/HW2/src +nc64bit +access+r +define+FSDB_FILE="RAIL.fsdb" )
+s8::(28Mar2023:21:28:15):( ncverilog /home/YuChengWang/DIC/HW2/sim/tb.v /home/YuChengWang/DIC/HW2/src/rails.v +incdir+/home/YuChengWang/DIC/HW2/src +nc64bit +access+r +define+FSDB_FILE="RAIL.fsdb" )
+s9::(28Mar2023:21:31:35):( ncverilog /home/YuChengWang/DIC/HW2/sim/tb.v /home/YuChengWang/DIC/HW2/src/rails.v +incdir+/home/YuChengWang/DIC/HW2/src +nc64bit +access+r +define+FSDB_FILE="RAIL.fsdb" )
+s10::(28Mar2023:21:32:30):( ncverilog /home/YuChengWang/DIC/HW2/sim/tb.v /home/YuChengWang/DIC/HW2/src/rails.v +incdir+/home/YuChengWang/DIC/HW2/src +nc64bit +access+r +define+FSDB_FILE="RAIL.fsdb" )
+s11::(28Mar2023:21:40:14):( ncverilog /home/YuChengWang/DIC/HW2/sim/tb.v /home/YuChengWang/DIC/HW2/src/rails.v +incdir+/home/YuChengWang/DIC/HW2/src +nc64bit +access+r +define+FSDB_FILE="RAIL.fsdb" )
+s12::(28Mar2023:21:41:41):( ncverilog /home/YuChengWang/DIC/HW2/sim/tb.v /home/YuChengWang/DIC/HW2/src/rails.v +incdir+/home/YuChengWang/DIC/HW2/src +nc64bit +access+r +define+FSDB_FILE="RAIL.fsdb" )
+s13::(28Mar2023:21:44:16):( ncverilog /home/YuChengWang/DIC/HW2/sim/tb.v /home/YuChengWang/DIC/HW2/src/rails.v +incdir+/home/YuChengWang/DIC/HW2/src +nc64bit +access+r +define+FSDB_FILE="RAIL.fsdb" )
+s14::(28Mar2023:21:45:48):( ncverilog /home/YuChengWang/DIC/HW2/sim/tb.v /home/YuChengWang/DIC/HW2/src/rails.v +incdir+/home/YuChengWang/DIC/HW2/src +nc64bit +access+r +define+FSDB_FILE="RAIL.fsdb" )

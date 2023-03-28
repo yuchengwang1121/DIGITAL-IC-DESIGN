@@ -1,0 +1,259 @@
+ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Mar 28, 2023 at 21:45:48 CST
+ncverilog
+	/home/YuChengWang/DIC/HW2/sim/tb.v
+	/home/YuChengWang/DIC/HW2/src/rails.v
+	+incdir+/home/YuChengWang/DIC/HW2/src
+	+nc64bit
+	+access+r
+	+define+FSDB_FILE="RAIL.fsdb"
+Recompiling... reason: file '../src/rails.v' is newer than expected.
+	expected: Tue Mar 28 21:44:09 2023
+	actual:   Tue Mar 28 21:45:43 2023
+file: /home/YuChengWang/DIC/HW2/src/rails.v
+	module worklib.rails:v
+		errors: 0, warnings: 0
+ncvlog: *W,SPDUSD: Include directory /home/YuChengWang/DIC/HW2/src given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.rails:v <0x3ed0ddb1>
+			streams:  18, words: 10024
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:               25      25
+		Scalar wires:             7       -
+		Vectored wires:           1       -
+		Always blocks:           10      10
+		Initial blocks:          10      10
+		Cont. assignments:        5       5
+		Pseudo assignments:       1       1
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.testfixture:v
+Loading snapshot worklib.testfixture:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+----------------------
+-- Simulation Start --
+----------------------
+FSDB Dumper for IUS, Release Verdi_O-2018.09, Linux x86_64/64bit, 08/30/2018
+(C) 1996 - 2018 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'RAILS.fsdb'
+*Verdi* : Begin traversing the scope (testfixture), layer (0).
+*Verdi* : Enable +struct and +mda dumping.
+*Verdi* : End of traversing.
+Pattern0: Expect= 0 Get= 0, PASS
+
+Pattern1: Expect= 0 Get= 0, PASS
+
+Pattern2: Expect= 0 Get= 0, PASS
+
+Pattern3: Expect= 1 Get= 1, PASS
+
+Pattern4: Expect= 0 Get= 0, PASS
+
+Pattern5: Expect= 1 Get= 1, PASS
+
+Pattern6: Expect= 0 Get= 0, PASS
+
+Pattern7: Expect= 0 Get= 0, PASS
+
+Pattern8: Expect= 1 Get= 1, PASS
+
+Pattern9: Expect= 1 Get= 0, FAIL
+
+Pattern10: Expect= 1 Get= 0, FAIL
+
+Pattern11: Expect= 0 Get= 0, PASS
+
+Pattern12: Expect= 0 Get= 0, PASS
+
+Pattern13: Expect= 0 Get= 0, PASS
+
+Pattern14: Expect= 0 Get= 0, PASS
+
+Pattern15: Expect= 0 Get= 0, PASS
+
+Pattern16: Expect= 1 Get= 1, PASS
+
+Pattern17: Expect= 1 Get= 0, FAIL
+
+Pattern18: Expect= 0 Get= 0, PASS
+
+Pattern19: Expect= 0 Get= 0, PASS
+
+Pattern20: Expect= 0 Get= 0, PASS
+
+Pattern21: Expect= 1 Get= 0, FAIL
+
+Pattern22: Expect= 0 Get= 0, PASS
+
+Pattern23: Expect= 0 Get= 0, PASS
+
+Pattern24: Expect= 0 Get= 0, PASS
+
+Pattern25: Expect= 0 Get= 0, PASS
+
+Pattern26: Expect= 0 Get= 0, PASS
+
+Pattern27: Expect= 0 Get= 0, PASS
+
+Pattern28: Expect= 1 Get= 1, PASS
+
+Pattern29: Expect= 1 Get= 0, FAIL
+
+Pattern30: Expect= 0 Get= 0, PASS
+
+Pattern31: Expect= 0 Get= 0, PASS
+
+Pattern32: Expect= 0 Get= 0, PASS
+
+Pattern33: Expect= 1 Get= 0, FAIL
+
+Pattern34: Expect= 0 Get= 0, PASS
+
+Pattern35: Expect= 1 Get= 1, PASS
+
+Pattern36: Expect= 1 Get= 1, PASS
+
+Pattern37: Expect= 0 Get= 0, PASS
+
+Pattern38: Expect= 1 Get= 0, FAIL
+
+Pattern39: Expect= 1 Get= 0, FAIL
+
+Pattern40: Expect= 0 Get= 0, PASS
+
+Pattern41: Expect= 0 Get= 0, PASS
+
+Pattern42: Expect= 0 Get= 0, PASS
+
+Pattern43: Expect= 0 Get= 0, PASS
+
+Pattern44: Expect= 0 Get= 0, PASS
+
+Pattern45: Expect= 0 Get= 0, PASS
+
+Pattern46: Expect= 0 Get= 0, PASS
+
+Pattern47: Expect= 0 Get= 0, PASS
+
+Pattern48: Expect= 0 Get= 0, PASS
+
+Pattern49: Expect= 1 Get= 0, FAIL
+
+Pattern50: Expect= 1 Get= 1, PASS
+
+Pattern51: Expect= 1 Get= 0, FAIL
+
+Pattern52: Expect= 0 Get= 0, PASS
+
+Pattern53: Expect= 1 Get= 0, FAIL
+
+Pattern54: Expect= 0 Get= 0, PASS
+
+Pattern55: Expect= 0 Get= 0, PASS
+
+Pattern56: Expect= 0 Get= 0, PASS
+
+Pattern57: Expect= 0 Get= 0, PASS
+
+Pattern58: Expect= 1 Get= 1, PASS
+
+Pattern59: Expect= 1 Get= 1, PASS
+
+Pattern60: Expect= 0 Get= 0, PASS
+
+Pattern61: Expect= 1 Get= 1, PASS
+
+Pattern62: Expect= 0 Get= 0, PASS
+
+Pattern63: Expect= 0 Get= 0, PASS
+
+Pattern64: Expect= 1 Get= 1, PASS
+
+Pattern65: Expect= 0 Get= 0, PASS
+
+Pattern66: Expect= 0 Get= 0, PASS
+
+Pattern67: Expect= 0 Get= 0, PASS
+
+Pattern68: Expect= 0 Get= 0, PASS
+
+Pattern69: Expect= 1 Get= 0, FAIL
+
+Pattern70: Expect= 1 Get= 1, PASS
+
+Pattern71: Expect= 1 Get= 0, FAIL
+
+Pattern72: Expect= 1 Get= 1, PASS
+
+Pattern73: Expect= 1 Get= 1, PASS
+
+Pattern74: Expect= 1 Get= 1, PASS
+
+Pattern75: Expect= 1 Get= 0, FAIL
+
+Pattern76: Expect= 1 Get= 0, FAIL
+
+Pattern77: Expect= 1 Get= 1, PASS
+
+Pattern78: Expect= 0 Get= 0, PASS
+
+Pattern79: Expect= 1 Get= 1, PASS
+
+Pattern80: Expect= 1 Get= 1, PASS
+
+Pattern81: Expect= 1 Get= 0, FAIL
+
+Pattern82: Expect= 1 Get= 1, PASS
+
+Pattern83: Expect= 1 Get= 1, PASS
+
+Pattern84: Expect= 1 Get= 1, PASS
+
+Pattern85: Expect= 1 Get= 0, FAIL
+
+Pattern86: Expect= 1 Get= 0, FAIL
+
+Pattern87: Expect= 1 Get= 1, PASS
+
+Pattern88: Expect= 0 Get= 0, PASS
+
+Pattern89: Expect= 1 Get= 0, FAIL
+
+Pattern90: Expect= 1 Get= 0, FAIL
+
+Pattern91: Expect= 1 Get= 1, PASS
+
+Pattern92: Expect= 1 Get= 1, PASS
+
+Pattern93: Expect= 1 Get= 0, FAIL
+
+Pattern94: Expect= 1 Get= 0, FAIL
+
+Pattern95: Expect= 0 Get= 0, PASS
+
+Pattern96: Expect= 0 Get= 0, PASS
+
+Pattern97: Expect= 1 Get= 1, PASS
+
+Pattern98: Expect= 1 Get= 0, FAIL
+
+Pattern99: Expect= 1 Get= 1, PASS
+
+-----------------------------------------------------------
+-- Simulation finish,  Pass = 77 , Fail = 23, Score = 77 --
+-----------------------------------------------------------
+Simulation complete via $finish(1) at time 8340 NS + 0
+../sim/tb.v:144              $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on Mar 28, 2023 at 21:45:52 CST  (total: 00:00:04)
