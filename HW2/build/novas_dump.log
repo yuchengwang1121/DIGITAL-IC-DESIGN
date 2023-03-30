@@ -24,7 +24,7 @@ LESS=-R
 SYNOPSYS=/home/nfs_cad/synopsys/icc/cur
 MTI_VCO_MODE=64
 LANGUAGE=en_US.UTF-8
-MAKE_TERMOUT=/dev/pts/0
+MAKE_TERMOUT=/dev/pts/10
 SYN_MAN_DIR=/home/nfs_cad/synopsys/synthesis/cur/doc/syn/man
 MGC_LOCATION_MAP=NO_MAP
 PWD=/home/YuChengWang/DIC/HW2/build
@@ -40,7 +40,7 @@ SHLIB_PATH=/home/nfs_cad/synopsys/verdi/cur/share/PLI/IUS/linux64:
 LANG=en_US.UTF-8
 LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 SYNTHESIS=/home/nfs_cad/synopsys/synthesis/cur
-SSH_CONNECTION=192.168.102.27 52544 140.116.245.122 22
+SSH_CONNECTION=192.168.102.27 55119 140.116.245.122 22
 MFLAGS=
 LESSCLOSE=/usr/bin/lesspipe %s %s
 MAKEFLAGS=
@@ -49,21 +49,21 @@ TERM=xterm
 ZSH=/home/YuChengWang/.oh-my-zsh
 LESSOPEN=| /usr/bin/lesspipe %s
 USER=YuChengWang
-MAKE_TERMERR=/dev/pts/0
-DISPLAY=localhost:12.0
+MAKE_TERMERR=/dev/pts/10
+DISPLAY=localhost:15.0
 SHLVL=2
 PAGER=less
 MAKELEVEL=1
-XDG_SESSION_ID=265
+XDG_SESSION_ID=1550
 LM_LICENSE_FILE=1717@lstc:1717@lstn:1717@lshc:26585@lshc:26585@lstc:26585@lstn:5280@lstn:5280@lshc:5280@lstc
 LD_LIBRARY_PATH=/usr/cad/cadence/INNOVUS/cur/tools/lib:/home/nfs_cad/synopsys/verdi/cur/share/PLI/IUS/linux64:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/lib:/usr/cad/cadence/INCISIV/cur/tools/lib/64bit:/usr/cad/cadence/INCISIV/cur/tools/lib:
 XDG_RUNTIME_DIR=/run/user/1000084
-SSH_CLIENT=192.168.102.27 52544 22
+SSH_CLIENT=192.168.102.27 55119 22
 XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
 MGC_HOME=/home/nfs_cad/mentor/calibre/cur
 PATH=/usr/cad/cadence/INCISIV/cur/tools/bin/64bit:/usr/cad/cadence/INCISIV/cur/tools/bin/64bit:/usr/cad/cadence/INCISIV/cur/tools/bin/64bit:/opt/RISCV/bin:/home/nfs_cad/mentor/calibre/cur/bin:/home/nfs_cad/synopsys/laker/cur/bin:/usr/cad/cadence/JASPER/cur/bin:/usr/cad/cadence/INNOVUS/cur/tools/celtic/bin:/usr/cad/cadence/INNOVUS/cur/tools/plato/bin:/usr/cad/cadence/INNOVUS/cur/tools/dfII:/usr/cad/cadence/INNOVUS/cur/tools/bin:/usr/cad/cadence/INNOVUS/cur/tools/tlfUtil/bin:/home/nfs_cad/synopsys/icc/cur/amd64/syn/bin:/home/nfs_cad/synopsys/synthesis/cur/amd64/syn/bin:/home/nfs_cad/synopsys/cosmos_scope/cur/ai_bin:/usr/cad/synopsys/primetime/cur/linux64/syn/bin:/home/nfs_cad/synopsys/verdi/cur/bin:/home/nfs_cad/synopsys/verdi/cur/nLint/bin:/usr/cad/cadence/INCISIV/cur/tools/dfII/bin:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/usr/cad/cadence/INCISIV/cur/tools/bin:/home/nfs_cad/mentor/modelsim/10.2/modeltech/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000084/bus
-SSH_TTY=/dev/pts/0
+SSH_TTY=/dev/pts/10
 OLDPWD=/home/YuChengWang/DIC/HW2
 _=/usr/cad/cadence/INCISIV/cur/tools/bin/ncverilog
 _IRUNROOT_=/usr/cad/cadence/INCISIV/cur/tools
@@ -81,9 +81,9 @@ argv[4]=+nc64bit
 argv[5]=+access+r
 argv[6]=+define+FSDB_FILE="RAIL.fsdb"
 82 profile - 100
-          CPU/Mem usage: 0.190 sys,  0.030 user,  89.24M sys,  0.00M vm
+          CPU/Mem usage: 0.200 sys,  0.020 user,  89.26M sys,  0.00M vm
 83 VC callback profile - scalar:0 vector:0
-84 Tue Mar 28 21:45:51 2023
+84 Thu Mar 30 19:54:02 2023
 85 pliAppInit
 86 FSDB_GATE is disabled.
 87 Enable Parallel Dumping.
@@ -93,7 +93,7 @@ argv[6]=+define+FSDB_FILE="RAIL.fsdb"
 91 argv[0]: RAILS.fsdb
 92 argv[0]: +struct
 93 argv[1]: +mda
-94 argv[2]: (handle)0x449dec8 testfixture
+94 argv[2]: (handle)0x4ed0fc8 testfixture
 95 FSDB Dumper for IUS, Release Verdi_O-2018.09, Linux x86_64/64bit, 08/30/2018
 96 (C) 1996 - 2018 by Synopsys, Inc.
 97 sps_call_fsdbDumpfile at 0 : /home/YuChengWang/DIC/HW2/sim/tb.v(55)
@@ -103,12 +103,12 @@ argv[6]=+define+FSDB_FILE="RAIL.fsdb"
 101 sps_call_fsdbDumpvars at 0 : /home/YuChengWang/DIC/HW2/sim/tb.v(56)
 102 argv[0]: +struct
 103 argv[1]: +mda
-104 argv[2]: (handle)0x449dea8 testfixture
+104 argv[2]: (handle)0x4ed0fa8 testfixture
 105 *Verdi* : Begin traversing the scope (testfixture), layer (0).
 106 *Verdi* : Enable +struct and +mda dumping.
 107 *Verdi* : End of traversing.
 108 fsdbDumpvars traverse var: profile - 
-          CPU/Mem usage: 0.200 sys,  0.040 user,  176.55M sys,  0.00M vm
+          CPU/Mem usage: 0.220 sys,  0.030 user,  176.56M sys,  0.00M vm
                    incr: 0.000 sys,  0.000 user,  4.20M sys,  0.00M vm
                    accu: 0.000 sys,  0.000 user,  4.20M sys,  0.00M vm
               accu incr: 0.000 sys,  0.000 user,  4.20M sys,  0.00M vm
@@ -118,11 +118,11 @@ argv[6]=+define+FSDB_FILE="RAIL.fsdb"
                  accu: 53 var,  51 idcode,  51 callback
             accu incr: 53 var,  51 idcode,  51 callback
 109 VC callback profile - scalar:0 vector:0
-110 Tue Mar 28 21:45:52 2023
+110 Thu Mar 30 19:54:02 2023
 111 fsdbDumpvars: profile - 
-          CPU/Mem usage: 0.200 sys,  0.040 user,  177.60M sys,  0.00M vm
+          CPU/Mem usage: 0.220 sys,  0.030 user,  177.61M sys,  0.00M vm
                    incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
-                   accu: 0.000 sys,  0.000 user,  5.25M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  5.26M sys,  0.00M vm
               accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
 
           Count usage: 53 var,  51 idcode,  51 callback
@@ -130,16 +130,16 @@ argv[6]=+define+FSDB_FILE="RAIL.fsdb"
                  accu: 53 var,  51 idcode,  51 callback
             accu incr: 0 var,  0 idcode,  0 callback
 112 VC callback profile - scalar:12 vector:39
-113 Tue Mar 28 21:45:52 2023
-114 End of simulation at 834000
-115 VC callback profile - scalar:8296 vector:8573
-116 Tue Mar 28 21:45:52 2023
+113 Thu Mar 30 19:54:02 2023
+114 End of simulation at 829500
+115 VC callback profile - scalar:8520 vector:8705
+116 Thu Mar 30 19:54:02 2023
 117 Begin FSDB profile info:
-118 FSDB Writer : bc1(8296) bcn(8573) mtf/stf(0/0)
-FSDB Writer elapsed time : flush(0.002672) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
+118 FSDB Writer : bc1(8520) bcn(8705) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.002667) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
 FSDB Writer cpu time : MT Compression : 0
 119 End FSDB profile info
 120 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
-121                        ProduceTime:0.267139313 ConsumerTime:0.000000000 Buffer:64MB
+121                        ProduceTime:0.278392445 ConsumerTime:0.000000000 Buffer:64MB
 122 SimExit
 123 Sim process exit

@@ -1,5 +1,5 @@
 ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s084: Started on Mar 28, 2023 at 21:45:48 CST
+TOOL:	ncverilog	15.20-s084: Started on Mar 30, 2023 at 19:53:57 CST
 ncverilog
 	/home/YuChengWang/DIC/HW2/sim/tb.v
 	/home/YuChengWang/DIC/HW2/src/rails.v
@@ -8,8 +8,8 @@ ncverilog
 	+access+r
 	+define+FSDB_FILE="RAIL.fsdb"
 Recompiling... reason: file '../src/rails.v' is newer than expected.
-	expected: Tue Mar 28 21:44:09 2023
-	actual:   Tue Mar 28 21:45:43 2023
+	expected: Thu Mar 30 19:46:49 2023
+	actual:   Thu Mar 30 19:53:52 2023
 file: /home/YuChengWang/DIC/HW2/src/rails.v
 	module worklib.rails:v
 		errors: 0, warnings: 0
@@ -20,8 +20,8 @@ ncvlog: *W,SPDUSD: Include directory /home/YuChengWang/DIC/HW2/src given but not
 	Elaborating the design hierarchy:
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.rails:v <0x3ed0ddb1>
-			streams:  18, words: 10024
+		worklib.rails:v <0x3b058118>
+			streams:  20, words: 12175
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
@@ -68,9 +68,9 @@ Pattern7: Expect= 0 Get= 0, PASS
 
 Pattern8: Expect= 1 Get= 1, PASS
 
-Pattern9: Expect= 1 Get= 0, FAIL
+Pattern9: Expect= 1 Get= 1, PASS
 
-Pattern10: Expect= 1 Get= 0, FAIL
+Pattern10: Expect= 1 Get= 1, PASS
 
 Pattern11: Expect= 0 Get= 0, PASS
 
@@ -84,7 +84,7 @@ Pattern15: Expect= 0 Get= 0, PASS
 
 Pattern16: Expect= 1 Get= 1, PASS
 
-Pattern17: Expect= 1 Get= 0, FAIL
+Pattern17: Expect= 1 Get= 1, PASS
 
 Pattern18: Expect= 0 Get= 0, PASS
 
@@ -92,7 +92,7 @@ Pattern19: Expect= 0 Get= 0, PASS
 
 Pattern20: Expect= 0 Get= 0, PASS
 
-Pattern21: Expect= 1 Get= 0, FAIL
+Pattern21: Expect= 1 Get= 1, PASS
 
 Pattern22: Expect= 0 Get= 0, PASS
 
@@ -108,7 +108,7 @@ Pattern27: Expect= 0 Get= 0, PASS
 
 Pattern28: Expect= 1 Get= 1, PASS
 
-Pattern29: Expect= 1 Get= 0, FAIL
+Pattern29: Expect= 1 Get= 1, PASS
 
 Pattern30: Expect= 0 Get= 0, PASS
 
@@ -116,7 +116,7 @@ Pattern31: Expect= 0 Get= 0, PASS
 
 Pattern32: Expect= 0 Get= 0, PASS
 
-Pattern33: Expect= 1 Get= 0, FAIL
+Pattern33: Expect= 1 Get= 1, PASS
 
 Pattern34: Expect= 0 Get= 0, PASS
 
@@ -126,9 +126,9 @@ Pattern36: Expect= 1 Get= 1, PASS
 
 Pattern37: Expect= 0 Get= 0, PASS
 
-Pattern38: Expect= 1 Get= 0, FAIL
+Pattern38: Expect= 1 Get= 1, PASS
 
-Pattern39: Expect= 1 Get= 0, FAIL
+Pattern39: Expect= 1 Get= 1, PASS
 
 Pattern40: Expect= 0 Get= 0, PASS
 
@@ -148,15 +148,15 @@ Pattern47: Expect= 0 Get= 0, PASS
 
 Pattern48: Expect= 0 Get= 0, PASS
 
-Pattern49: Expect= 1 Get= 0, FAIL
+Pattern49: Expect= 1 Get= 1, PASS
 
 Pattern50: Expect= 1 Get= 1, PASS
 
-Pattern51: Expect= 1 Get= 0, FAIL
+Pattern51: Expect= 1 Get= 1, PASS
 
 Pattern52: Expect= 0 Get= 0, PASS
 
-Pattern53: Expect= 1 Get= 0, FAIL
+Pattern53: Expect= 1 Get= 1, PASS
 
 Pattern54: Expect= 0 Get= 0, PASS
 
@@ -188,11 +188,11 @@ Pattern67: Expect= 0 Get= 0, PASS
 
 Pattern68: Expect= 0 Get= 0, PASS
 
-Pattern69: Expect= 1 Get= 0, FAIL
+Pattern69: Expect= 1 Get= 1, PASS
 
 Pattern70: Expect= 1 Get= 1, PASS
 
-Pattern71: Expect= 1 Get= 0, FAIL
+Pattern71: Expect= 1 Get= 1, PASS
 
 Pattern72: Expect= 1 Get= 1, PASS
 
@@ -200,9 +200,9 @@ Pattern73: Expect= 1 Get= 1, PASS
 
 Pattern74: Expect= 1 Get= 1, PASS
 
-Pattern75: Expect= 1 Get= 0, FAIL
+Pattern75: Expect= 1 Get= 1, PASS
 
-Pattern76: Expect= 1 Get= 0, FAIL
+Pattern76: Expect= 1 Get= 1, PASS
 
 Pattern77: Expect= 1 Get= 1, PASS
 
@@ -212,7 +212,7 @@ Pattern79: Expect= 1 Get= 1, PASS
 
 Pattern80: Expect= 1 Get= 1, PASS
 
-Pattern81: Expect= 1 Get= 0, FAIL
+Pattern81: Expect= 1 Get= 1, PASS
 
 Pattern82: Expect= 1 Get= 1, PASS
 
@@ -220,25 +220,25 @@ Pattern83: Expect= 1 Get= 1, PASS
 
 Pattern84: Expect= 1 Get= 1, PASS
 
-Pattern85: Expect= 1 Get= 0, FAIL
+Pattern85: Expect= 1 Get= 1, PASS
 
-Pattern86: Expect= 1 Get= 0, FAIL
+Pattern86: Expect= 1 Get= 1, PASS
 
 Pattern87: Expect= 1 Get= 1, PASS
 
 Pattern88: Expect= 0 Get= 0, PASS
 
-Pattern89: Expect= 1 Get= 0, FAIL
+Pattern89: Expect= 1 Get= 1, PASS
 
-Pattern90: Expect= 1 Get= 0, FAIL
+Pattern90: Expect= 1 Get= 1, PASS
 
 Pattern91: Expect= 1 Get= 1, PASS
 
 Pattern92: Expect= 1 Get= 1, PASS
 
-Pattern93: Expect= 1 Get= 0, FAIL
+Pattern93: Expect= 1 Get= 1, PASS
 
-Pattern94: Expect= 1 Get= 0, FAIL
+Pattern94: Expect= 1 Get= 1, PASS
 
 Pattern95: Expect= 0 Get= 0, PASS
 
@@ -246,14 +246,14 @@ Pattern96: Expect= 0 Get= 0, PASS
 
 Pattern97: Expect= 1 Get= 1, PASS
 
-Pattern98: Expect= 1 Get= 0, FAIL
+Pattern98: Expect= 1 Get= 1, PASS
 
 Pattern99: Expect= 1 Get= 1, PASS
 
 -----------------------------------------------------------
--- Simulation finish,  Pass = 77 , Fail = 23, Score = 77 --
+----    Simulation finish,  ALL PASS,  Score = 100     ----
 -----------------------------------------------------------
-Simulation complete via $finish(1) at time 8340 NS + 0
+Simulation complete via $finish(1) at time 8295 NS + 0
 ../sim/tb.v:144              $finish;
 ncsim> exit
-TOOL:	ncverilog	15.20-s084: Exiting on Mar 28, 2023 at 21:45:52 CST  (total: 00:00:04)
+TOOL:	ncverilog	15.20-s084: Exiting on Mar 30, 2023 at 19:54:02 CST  (total: 00:00:05)

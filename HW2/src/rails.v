@@ -20,7 +20,7 @@ integer i,j,k;
 
 assign first = (last==0)?1'b1:1'b0;
 assign Init_done  = (i==last && last!=0)?1'b1:1'b0;
-assign Comp_done = (count == last)?1'b1:1'b0;
+assign Comp_done = ((i == last)||(Veri_seq[j] > Test_seq[i]))?1'b1:1'b0;
 assign valid = (Cur_state==Fin)?1'b1:1'b0;
 assign result = (j==0)?1'b1:1'b0;
 
@@ -72,8 +72,15 @@ always @(posedge clk or posedge reset) begin	//control of Veri_seq
 					Veri_seq[j+1] <= count + 1'b1;
 					count <= count + 1'b1;
 				end
+				else if ((Veri_seq[j] == Test_seq[i])&&(j==0)) begin
+					Veri_seq[j] <= count + 1'b1;
+					count <= count + 1'b1;
+				end
 			end
-			Fin : count <= 4'b1;
+			Fin : begin
+				Veri_seq[0] <= 4'b1;
+				count <= 4'b1;
+			end
 		endcase
 	end
 end
