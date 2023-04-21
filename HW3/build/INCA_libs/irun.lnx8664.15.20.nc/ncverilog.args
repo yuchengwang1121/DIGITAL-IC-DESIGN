@@ -1,0 +1,10 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+/home/YuChengWang/DIC/HW3/sim/testfixture.sv
+/home/YuChengWang/DIC/HW3/src/AEC.v
++incdir+/home/YuChengWang/DIC/HW3/src
++nc64bit
++access+r
++define+FSDB_FILE=\"AEC.fsdb\"

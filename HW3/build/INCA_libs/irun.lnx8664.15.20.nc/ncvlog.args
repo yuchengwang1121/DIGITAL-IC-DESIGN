@@ -1,0 +1,22 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.lnx8664.15.20.nc
+-RUNMODE
+/home/YuChengWang/DIC/HW3/sim/testfixture.sv
+/home/YuChengWang/DIC/HW3/src/AEC.v
+-INCDIR
+/home/YuChengWang/DIC/HW3/src
+-DEFINE
+FSDB_FILE=\"AEC.fsdb\"
+-CDSLIB
+./INCA_libs/irun.lnx8664.15.20.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.lnx8664.15.20.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./INCA_libs/irun.lnx8664.15.20.nc/xllibs
+-ALLOWUNBOUND
