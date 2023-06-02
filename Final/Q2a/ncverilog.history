@@ -1,0 +1,3 @@
+s1(30May2023:10:59:49):  ncverilog testfixture.v CONV3x3.v +access+r +nc64bit 
+s2(30May2023:11:01:43):  ncverilog testfixture.v CONV3x3.v +access+r +nc64bit 
+s3(30May2023:11:03:44):  ncverilog testfixture.v CONV3x3.v +access+r +nc64bit 

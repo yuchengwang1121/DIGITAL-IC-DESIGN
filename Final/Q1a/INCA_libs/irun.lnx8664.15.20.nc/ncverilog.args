@@ -1,0 +1,8 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+testfixture.sv
+AEC.v
++access+r
++nc64bit

@@ -1,0 +1,63 @@
+ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on May 30, 2023 at 11:03:44 CST
+ncverilog
+	testfixture.v
+	CONV3x3.v
+	+access+r
+	+nc64bit
+Recompiling... reason: file './CONV3x3.v' is newer than expected.
+	expected: Tue May 30 10:59:06 2023
+	actual:   Tue May 30 11:03:43 2023
+file: CONV3x3.v
+	module worklib.CONV3x3:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.CONV3x3:v <0x7e22f8f5>
+			streams:  30, words: 16338
+		worklib.testfixture:v <0x2db2d00c>
+			streams:  26, words: 29867
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:               33      33
+		Scalar wires:             7       -
+		Vectored wires:          20       -
+		Always blocks:            8       8
+		Initial blocks:          12      12
+		Cont. assignments:        2      14
+		Pseudo assignments:       3       3
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.testfixture:v
+Loading snapshot worklib.testfixture:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+-----------------------------------------------------
+
+START!!! Simulation Start .....
+
+-----------------------------------------------------
+
+Layer 0 output is correct !
+Layer 1 output is correct!
+ 
+-----------------------------------------------------
+
+--------------------- S U M M A R Y -----------------
+
+Congratulations! Layer 0 data have been generated successfully! The result is PASS!!
+
+Congratulations! Layer 1 data have been generated successfully! The result is PASS!!
+
+terminate at      51212 cycle
+-----------------------------------------------------
+
+Simulation complete via $finish(1) at time 1536360 NS + 0
+./testfixture.v:179       #(`CYCLE/2); $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on May 30, 2023 at 11:03:45 CST  (total: 00:00:01)

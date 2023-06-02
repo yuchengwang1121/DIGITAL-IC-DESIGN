@@ -1,0 +1,16 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(30May2023:10:09:55):( ncverilog testfixture.sv AEC.v +access+r +nc64bit )
+s2::(30May2023:10:12:46):( ncverilog testfixture.sv AEC.v +access+r +nc64bit )
+s3::(30May2023:10:15:40):( ncverilog testfixture.sv AEC.v +access+r +nc64bit )
+s4::(30May2023:10:19:20):( ncverilog testfixture.sv AEC.v +access+r +nc64bit )
+s5::(30May2023:10:19:47):( ncverilog testfixture.sv AEC.v +access+r +nc64bit )
+s6::(30May2023:10:28:36):( ncverilog testfixture.sv AEC.v +access+r +nc64bit )
+s7::(30May2023:10:32:02):( ncverilog testfixture.sv AEC.v +access+r +nc64bit )
+s8::(30May2023:10:38:51):( ncverilog testfixture.sv AEC.v +access+r +nc64bit )
+s9::(30May2023:10:39:21):( ncverilog testfixture.sv AEC.v +access+r +nc64bit )
+s10::(30May2023:10:41:14):( ncverilog testfixture.sv AEC.v +access+r +nc64bit )
+s11::(30May2023:10:42:14):( ncverilog testfixture.sv AEC.v +access+r +nc64bit )
+s12::(30May2023:10:42:33):( ncverilog testfixture.sv AEC.v +access+r +nc64bit )

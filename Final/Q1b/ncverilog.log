@@ -1,0 +1,9 @@
+ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on May 30, 2023 at 10:09:45 CST
+ncverilog
+	testfixture.sv
+	AEC.v
+	+access+r
+	+nc64bit
+ncverilog: *E,FILEMIS: Cannot find the provided file AEC.v.
+TOOL:	ncverilog	15.20-s084: Exiting on May 30, 2023 at 10:09:45 CST  (total: 00:00:00)

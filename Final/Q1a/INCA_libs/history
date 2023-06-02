@@ -1,0 +1,5 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(30May2023:09:46:07):( ncverilog testfixture.sv AEC.v +access+r +nc64bit )
