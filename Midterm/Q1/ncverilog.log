@@ -1,0 +1,10 @@
+ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Apr 18, 2023 at 11:13:54 CST
+ncverilog
+	tb.v
+	rails.v
+	+access+r
+	+nc64bit
+ncverilog: *E,FILEMIS: Cannot find the provided file tb.v.
+ncverilog: *E,FILEMIS: Cannot find the provided file rails.v.
+TOOL:	ncverilog	15.20-s084: Exiting on Apr 18, 2023 at 11:13:54 CST  (total: 00:00:00)

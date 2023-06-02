@@ -1,0 +1,652 @@
+ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Apr 18, 2023 at 12:15:36 CST
+ncverilog
+	tb.v
+	rails.v
+	+access+r
+	+nc64bit
+Recompiling... reason: file './rails.v' is newer than expected.
+	expected: Tue Apr 18 12:01:19 2023
+	actual:   Tue Apr 18 12:15:33 2023
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:               35      35
+		Scalar wires:             5       -
+		Vectored wires:           3       -
+		Always blocks:            9       9
+		Initial blocks:          14      14
+		Pseudo assignments:       1       1
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.testfixture:v
+Loading snapshot worklib.testfixture:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_O-2018.09, Linux x86_64/64bit, 08/30/2018
+(C) 1996 - 2018 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'rails.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+----------------------
+-- Simulation Start --
+----------------------
+Pattern0: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern1: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern2: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern3: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern4: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern5: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern6: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern7: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern8: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern9: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern10: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern11: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern12: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern13: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern14: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern15: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern16: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern17: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern18: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern19: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern20: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern21: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern22: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern23: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern24: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern25: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern26: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern27: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern28: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern29: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern30: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern31: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern32: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern33: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern34: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern35: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern36: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern37: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern38: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern39: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern40: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern41: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern42: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern43: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern44: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern45: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern46: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern47: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern48: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern49: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern50: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern51: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern52: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern53: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern54: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern55: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern56: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern57: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern58: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern59: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern60: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern61: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern62: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern63: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern64: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern65: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern66: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern67: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern68: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern69: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern70: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern71: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern72: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern73: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern74: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern75: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern76: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern77: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern78: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern79: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern80: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern81: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern82: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern83: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern84: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern85: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern86: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern87: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern88: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern89: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern90: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern91: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern92: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern93: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern94: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern95: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern96: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern97: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern98: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern99: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern100: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern101: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern102: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern103: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern104: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern105: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern106: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern107: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern108: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern109: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern110: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern111: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern112: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern113: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern114: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern115: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern116: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern117: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern118: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern119: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern120: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern121: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern122: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern123: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern124: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern125: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern126: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern127: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern128: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern129: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern130: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern131: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern132: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern133: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern134: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern135: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern136: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern137: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern138: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern139: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern140: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern141: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern142: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern143: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern144: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern145: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern146: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern147: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern148: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern149: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern150: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern151: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern152: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern153: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern154: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern155: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern156: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern157: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern158: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern159: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern160: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern161: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern162: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern163: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern164: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern165: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern166: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern167: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern168: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern169: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern170: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern171: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern172: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern173: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern174: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern175: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern176: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern177: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern178: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern179: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern180: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern181: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern182: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern183: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern184: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern185: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern186: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern187: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern188: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern189: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern190: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern191: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern192: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern193: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern194: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern195: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern196: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern197: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern198: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern199: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern200: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern201: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern202: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern203: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern204: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern205: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern206: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern207: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern208: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern209: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern210: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern211: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern212: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern213: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern214: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern215: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern216: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern217: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern218: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern219: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern220: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern221: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern222: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern223: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern224: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern225: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern226: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern227: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern228: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern229: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern230: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern231: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern232: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern233: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern234: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern235: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern236: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern237: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern238: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern239: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern240: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern241: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern242: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern243: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern244: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern245: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern246: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern247: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern248: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern249: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern250: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern251: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern252: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern253: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern254: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern255: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern256: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern257: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern258: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern259: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern260: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern261: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern262: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern263: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern264: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern265: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern266: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern267: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern268: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern269: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern270: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern271: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern272: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern273: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern274: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern275: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern276: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern277: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern278: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern279: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern280: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern281: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern282: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern283: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern284: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern285: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern286: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern287: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern288: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern289: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern290: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern291: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern292: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern293: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern294: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern295: Station1 Expect= 1 Get= 0, Station2 Expect= 1 Get= 0, FAIL
+
+Pattern296: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern297: Station1 Expect= 1 Get= 0, Station2 Expect= 0 Get= 0, FAIL
+
+Pattern298: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+Pattern299: Station1 Expect= 0 Get= 0, Station2 Expect= 0 Get= 0, PASS
+
+-----------------------------------------------------------
+----                 Simulation finish                 ----
+----                 Patten 1 ALL PASS                 ----
+----             Patten 2 FAIL , Fail = 100             ----
+----             Patten 3 FAIL , Fail = 100             ----
+-----------------------------------------------------------
+Simulation complete via $finish(1) at time 301300 NS + 0
+./tb.v:203              $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on Apr 18, 2023 at 12:15:37 CST  (total: 00:00:01)
