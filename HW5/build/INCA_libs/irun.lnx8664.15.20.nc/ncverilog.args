@@ -1,0 +1,13 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+/home/YuChengWang/DIC/HW5/sim/testfixture_new.v
+/home/YuChengWang/DIC/HW5/syn/demosaic_syn.v
+-sv
+/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v
++nc64bit
++access+r
++define+FSDB_FILE=\"demosaic.fsdb\"
++define+SDF
++define+SDFFILE=\"/home/YuChengWang/DIC/HW5/syn/demosaic_syn.sdf\"
